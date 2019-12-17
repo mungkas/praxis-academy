@@ -1,0 +1,2 @@
+linux-image-5.3.0-kali2-amd64                   install
+linux-image-amd64                               install

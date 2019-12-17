@@ -1,0 +1,22 @@
+mkdir praxis-academy
+ls
+cd praxis-academy/
+mkdir kemampuan-dasar-1/latihan
+mkdir kemampuan-dasar-1
+cd kemampuan-dasar-1/
+mkdir latihan
+ls
+cd latihan/
+nano grub.txt
+nano env.txt
+cat env.txt 
+cp cmdline.txt /root/praxis-academy/
+rm -rf /root/praxis-academy/cmdline.txt 
+mv /root/praxis-academy/cmdline.txt /root/
+man man
+clear
+man cat
+chmod -R 777 cmdline.txt 
+ls -l
+history
+

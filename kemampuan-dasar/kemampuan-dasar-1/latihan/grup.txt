@@ -1,0 +1,11 @@
+Proses pemanggilan GRUB dan sistem operasi meliputi beberapa tahapan:
+
+1. Memanggil Primary Boot-Loader
+Primary boot-loader berisi program dengan ukuran lebih kecil dari 512 bytes karena diletakan pada MBR yang hanya berukuran sebesar 512 bytes, program ini kemudian memanggil secondary boot-loader.
+
+2. Memanggil Secondary Boot-Loader
+Seondary boot-loader kemudian membawa kita ke menu pilihan sistem operasi apa yang akan kita jalankan, GRUB menyediakan dua menu pilihan utama, yaitu pilihan menu sistem operasi dan mode boot-loader command.
+
+3. Memanggil Sistem Operasi Pada Posisi Partisi Tertentu
+Dalam memanggil sistem operasi, GRUB mendapat intruksi tertentu untuk memanggil sistem operasi tersebut. Intruksi ini bisa kita definisikan melalui konfigurasi GRUB, atau kita ketikan secara manual pada mode boot-loader command.
+
