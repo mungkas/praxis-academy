@@ -1,0 +1,13 @@
+  583  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+  584  nvm
+  731  nvm
+  732  nvm ls-remote
+  733  nvm install node
+  734  nvm list
+  735  node -v
+  736  npm version
+  737  npx -v
+  npm@6.13.1 /root/.nvm/versions/node/v13.3.0/lib/node_modules/npm
+  node v13.3.0
+  npx 6.13.1
+
